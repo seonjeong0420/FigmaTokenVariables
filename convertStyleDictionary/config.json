@@ -1,0 +1,27 @@
+{
+  "source": ["src/tokens/*.json"],
+  "platforms": {
+    "css": {
+      "transformGroup": "css",
+      "buildPath": "build/",
+      "transforms": ["attribute/cti", "name/cti/snake", "color/hex", "size/rem", "custom/dimension", "custom/typo"],
+      "files": [
+        {
+          "destination": "tokens.css",
+          "format": "customFormat",
+          "options": {
+            "showFileHeader": false,
+            "outputReferences": true
+          }
+        },
+        {
+          "destination": "tokens.scss",
+          "format": "scss/variables",
+          "options": {
+            "outputReferences": true
+          }
+        }
+      ]
+    }
+  }
+}

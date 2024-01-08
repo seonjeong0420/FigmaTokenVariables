@@ -1,0 +1,151 @@
+
+// Do not edit directly
+// Generated on Mon, 04 Dec 2023 10:58:14 GMT
+
+$token_set_order_0: global;
+$radius_radius_200: 0.2rem; // 사용 가이드 : 직각으로 디자인 하였으나 GUI 스타일 요소가 아닌 코딩하다 만 상태로 인지가 되어 완성도가 떨어지는 경우
+$radius_radius_800: 0.8rem;
+$radius_radius_400: 0.4rem;
+$radius_radius_100: 0rem;
+$border_border_200: 2px solid 111;
+$border_border_150: 1.5px solid 111;
+$border_border_100: 1px solid 111;
+$layout_spaing_1000: 10rem; // footer
+$layout_spacing_700: 7rem; // footer
+$layout_spacing_800: 8rem;
+$layout_spacing_400: 4rem;
+$layout_spacing_300: 3rem;
+$layout_spacing_200: 2rem;
+$layout_spacing_100: 1rem;
+$paragraph_indent_0: 0px;
+$text_decoration_none: none;
+$text_case_none: none;
+$typo_b11_400: 400 1rem/1.2rem Inter;
+$typo_b11_700: 700 1rem/1.2rem Pretendard;
+$typo_p1_400: 400 1.4rem/2.2rem Pretendard; // 긴 문장 (약관, 공지사항)
+$typo_p1_700: 700 1.4rem/2.2rem Pretendard; // 긴 문장 (약관, 공지사항)
+$typo_c8_500: 700 0.9rem/1.1rem Pretendard; // 뱃지 (최소)
+$typo_c7_500: 500 1rem/1.2rem Pretendard; // 뱃지, 메뉴 (바텀 네비게이션)
+$typo_c6_500: 500 1.1rem/1.4rem Pretendard; // 뱃지
+$typo_c5_500: 500 1.2rem/1.6rem Pretendard; // 뱃지
+$typo_c4_500: 500 1.3rem/1.8rem Pretendard; // 뱃지
+$typo_c3_500: 500 1.4rem/2rem Pretendard; // 버튼명
+$typo_c2_500: 500 1.5rem/2.1rem Pretendard; // 탭 메뉴
+$typo_c1_500: 500 1.6rem/2.2rem Pretendard;
+$typo_b10_400: 400 1.1rem/1.4rem Pretendard; // 본문 (최소)
+$typo_b10_700: 700 1.1rem/1.4rem Pretendard; // 본문 (최소)
+$typo_b9_400: 400 1.2rem/1.6rem Pretendard; // 본문 (보충설명)
+$typo_b9_700: 700 1.2rem/1.6rem Pretendard; // 본문 (보충설명)
+$typo_b8_400: 400 1.3rem/1.8rem Pretendard; // 본문 (보충설명)
+$typo_b8_700: 700 1.3rem/1.8rem Pretendard; // 본문 (보충설명)
+$typo_b7_400: 400 1.4rem/2rem Pretendard; // 본문 (기준)
+$typo_b7_700: 700 1.4rem/2rem Pretendard; // 본문 (기준)
+$typo_b6_400: 400 1.5rem/2.1rem Pretendard; // 본문 (금액)
+$typo_b6_700: 700 1.5rem/2.1rem Pretendard; // 본문 (금액)
+$typo_b5_400: 400 1.6rem/2.2rem Pretendard; // 본문 (인풋창 입력시)
+$typo_b5_700: 700 1.6rem/2.2rem Pretendard; // 본문 (인풋창 입력시)
+$typo_b4_400: 400 1.7rem/2.3rem Pretendard; // 본문
+$typo_b4_700: 700 1.7rem/2.3rem Pretendard; // 본문
+$typo_b3_400: 400 1.8rem/2.4rem Pretendard; // 본문
+$typo_b3_700: 700 1.8rem/2.4rem Pretendard; // 본문
+$typo_b2_400: 400 2rem/2.6rem Pretendard; // 본문
+$typo_b2_700: 700 2rem/2.6rem Pretendard; // 본문
+$typo_b1_400: 400 2.2rem/3.1rem Pretendard; // 본문 (금액, %)
+$typo_b1_700: 700 2.2rem/3.1rem Pretendard; // 본문 (금액, %)
+$typo_t8_700: 700 1.5rem/2.1rem Pretendard; // 타이틀
+$typo_t7_700: 700 1.6rem/2.2rem Pretendard; // 타이틀
+$typo_t6_700: 700 1.7rem/2.3rem Pretendard; // 타이틀 (홈화면)
+$typo_t5_700: 700 1.8rem/2.4rem Pretendard; // 타이틀
+$typo_t4_700: 700 2rem/2.6rem Pretendard; // 타이틀
+$typo_t3_700: 700 2.2rem/2.8rem Pretendard; // 타이틀
+$typo_t2_700: 700 2.6rem/3.6rem Pretendard; // 타이틀
+$typo_t1_700: 700 3.4rem/4.4rem Pretendard; // 타이틀
+$paragraph_spacing_0: 0;
+$letter_spacing_4: 0em;
+$letter_spacing_3: -0.005em;
+$letter_spacing_2: -0.5;
+$letter_spacing_1: 0;
+$letter_spacing_0: -1;
+$font_size_14: 3.4rem;
+$font_size_13: 3.4rem;
+$font_size_12: 2.6rem;
+$font_size_11: 2.2rem;
+$font_size_10: 2rem;
+$font_size_9: 1.8rem;
+$font_size_8: 1.7rem;
+$font_size_7: 1.6rem;
+$font_size_6: 1.5rem;
+$font_size_5: 1.4rem;
+$font_size_4: 1.3rem;
+$font_size_3: 1.2rem;
+$font_size_2: 1.1rem;
+$font_size_1: 1rem;
+$font_size_0: 0.9rem;
+$font_weights_pretendard_3: 500;
+$font_weights_inter_2: 400;
+$font_weights_pretendard_2: 500;
+$font_weights_pretendard_1: 400;
+$font_weights_pretendard_0: 700;
+$line_heights_14: 1.1rem;
+$line_heights_13: 1.2rem;
+$line_heights_12: 1.4rem;
+$line_heights_11: 1.6rem;
+$line_heights_10: 1.8rem;
+$line_heights_9: 2rem;
+$line_heights_8: 3.1rem;
+$line_heights_7: 2.1rem;
+$line_heights_6: 2.2rem;
+$line_heights_5: 2.4rem;
+$line_heights_4: 2.3rem;
+$line_heights_3: 2.6rem;
+$line_heights_2: 2.8rem;
+$line_heights_1: 3.6rem;
+$line_heights_0: 4.4rem;
+$font_families_inter: Inter;
+$font_families_pretendard: Pretendard;
+$shadow_shd_book: 2px 6px 6px 0 #00000040;
+$zuro_color_bg_cherry: #fdf4f7;
+$zuro_color_bg_violet: #f6f4ff;
+$zuro_color_orange_pressed: #e42d00;
+$zuro_color_orange: #fd4a1e;
+$zuro_color_nagative: #ff2a1d;
+$zuro_color_positive: #29b672;
+$zuro_color_neonyellow_pressed: #e3f318;
+$zuro_color_neonyellow: #f1fe53;
+$zuro_color_cherry_pressed: #df0050;
+$zuro_color_cherry: #ff2372;
+$zuro_color_violet_pressed: #4b1bdb;
+$zuro_color_violet: #7142ff;
+$zuro_color_lime_pressed: #00e48b;
+$zuro_color_lime: #36ff98;
+$zuro_color_opacity_w_500: #ffffff1a;
+$zuro_color_opacity_w_400: #ffffff33;
+$zuro_color_opacity_w_300: #ffffff4d;
+$zuro_color_opacity_w_200: #ffffff80;
+$zuro_color_opacity_w_100: #ffffffb3;
+$zuro_color_opacity_w_50: #ffffffe6;
+$zuro_color_opacity_b_500: #0000001a;
+$zuro_color_opacity_b_400: #00000033;
+$zuro_color_opacity_b_300: #0000004d;
+$zuro_color_opacity_b_200: #00000080;
+$zuro_color_opacity_b_100: #000000b3;
+$zuro_color_opacity_b_50: #000000e6;
+$zuro_color_bg_300: #eef0f2;
+$zuro_color_bg_200: #f4f6f8;
+$zuro_color_bg_100: #fbfbfb;
+$zuro_color_white: #ffffff;
+$zuro_color_gray_900: #fafafa;
+$zuro_color_gray_800: #f5f5f5;
+$zuro_color_gray_750: #f0f0f0;
+$zuro_color_gray_700: #ededed;
+$zuro_color_gray_650: #e7e7e7;
+$zuro_color_gray_600: #dddddd;
+$zuro_color_gray_550: #cccccc;
+$zuro_color_gray_500: #bbbbbb;
+$zuro_color_gray_450: #aaaaaa; // 비활성화 텍스트
+$zuro_color_gray_400: #888888; // 서브텍스트
+$zuro_color_gray_300: #666666; // 서브텍스트
+$zuro_color_gray_200: #555555; // 본문
+$zuro_color_gray_100: #333333;
+$zuro_color_gray_50: #111111; // 브랜드 컬러 / 타이틀
+$zuro_color_black: #000000;
