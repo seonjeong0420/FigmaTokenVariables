@@ -4,11 +4,11 @@
     "css": {
       "transformGroup": "css",
       "buildPath": "build/",
-      "transforms": ["attribute/cti", "name/cti/snake", "color/hex", "size/rem", "custom/dimension", "custom/typo"],
+      "transforms": ["attribute/cti", "name/cti/snake", "color/hex", "size/rem", "custom/dimension", "custom/typo", "custom/shadow"],
       "files": [
         {
           "destination": "tokens.css",
-          "format": "customFormat",
+          "format": "customCssFormat",
           "options": {
             "showFileHeader": false,
             "outputReferences": true
@@ -16,7 +16,7 @@
         },
         {
           "destination": "tokens.scss",
-          "format": "scss/variables",
+          "format": "customScssFormat",
           "options": {
             "outputReferences": true
           }

@@ -7,9 +7,7 @@
     "dev": "vite",
     "preview": "vite preview",
     "style-dictionary:build2": "style-dictionary build --config config.json",
-    "build": "node build.js",
-    "tokens": "node build-tokens.js",
-    "tokenbasic": "node build-basic.js"
+    "build": "node build.js"
   },
   "devDependencies": {
     "sass": "^1.69.5",
@@ -17,6 +15,7 @@
     "vite": "^4.4.5"
   },
   "dependencies": {
+    "@ctrl/tinycolor": "^4.0.2",
     "@tokens-studio/sd-transforms": "^0.11.9",
     "token-transformer": "^0.0.33"
   }
