@@ -4,7 +4,14 @@
     "css": {
       "transformGroup": "css",
       "buildPath": "build/",
-      "transforms": ["attribute/cti", "name/cti/snake", "color/hex", "size/rem", "custom/dimension", "custom/typo", "custom/shadow"],
+      "transforms": [
+        "attribute/cti",
+        "name/cti/snake",
+        "color/hex",
+        "size/rem",
+        "custom/typo",
+        "custom/shadow"
+      ],
       "files": [
         {
           "destination": "tokens.css",
