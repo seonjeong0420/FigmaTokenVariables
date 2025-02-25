@@ -31,7 +31,8 @@ StyleDictionary.registerFormat({
   formatter: function ({ dictionary }) {
     dictionary.allTokens.map((item) => {
       if (item.type === "custom-fontStyle") {
-        content[item.name] = item.value;
+        const name = item.name.replace(/typo_/g, "").trim().split("_").join("_");
+        content[name] = item.value;
       } else if (item.type === "dimension") {
         if (item.attributes.category === "semantic") {
           const subKey = item.name
